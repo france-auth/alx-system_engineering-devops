@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name \".*\" -type d -print | wc -l
+ls -a | find . -name ".*" -type d -print | wc -l
